@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>El Ray Tint Co.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      font-family: 'Georgia', serif;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .badge {
+      background: #c00;
+      display: inline-block;
+      padding: 0.3rem 0.6rem;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .cta {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .cta h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .cta a {
+      background: #000;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .cta a:hover {
+      background: #333;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+    }
+    input, select, textarea {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #000;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>El Ray Tint Co.</h1>
+    <p>"Respect the Ride. Tint with Pride."</p>
+    <div class="badge">Veteran Owned</div>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Booking</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="cta">
+    <h2>Book Your Tint Appointment Today</h2>
+    <a href="#booking">Get Started</a>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Full Vehicle Tint</li>
+      <li>Front Windows Only</li>
+      <li>Windshield Strip</li>
+      <li>Standard Film or Ceramic Options</li>
+    </ul>
+  </section>
+
+  <section id="booking">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Phone Number" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Vehicle Year / Make / Model" required />
+      <select required>
+        <option value="">Select Tint Package</option>
+        <option>Front Only</option>
+        <option>Full Vehicle</option>
+        <option>Windshield Strip</option>
+      </select>
+      <select required>
+        <option value="">Select Film Type</option>
+        <option>Standard</option>
+        <option>Ceramic</option>
+        <option>Limo Tint</option>
+      </select>
+      <input type="date" required />
+      <textarea placeholder="Notes (optional)"></textarea>
+      <button type="submit">Submit Booking Request</button>
+    </form>
+  </section>
+
+  <section id="gallery">
+    <h2>Recent Tint Jobs</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/featured/?tinted-car1" alt="Tint Job 1" />
+      <img src="https://source.unsplash.com/featured/?tinted-car2" alt="Tint Job 2" />
+      <img src="https://source.unsplash.com/featured/?tinted-car3" alt="Tint Job 3" />
+      <img src="https://source.unsplash.com/featured/?tinted-car4" alt="Tint Job 4" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
+
+
+Site mockup updated! Ray’s demo site now includes:
+
+Services list
+
+Booking form with all the key fields
+
+Gallery using randomized tinted car photos
+
+Contact form
+
+
+It’s clean, mobile-ready, and showcases the “Veteran Owned” branding with pride. Want me to deploy a live demo site next so you can show him on your phone?
+
